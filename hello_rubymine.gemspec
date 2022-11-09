@@ -4,7 +4,7 @@ require "hello_rubymine/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "my-ruby-sample"
-  spec.version       = 1.0.0
+  spec.version       = "1.0.0"
   spec.authors       = ["shisad"]
   spec.email         = ["shisad@jetbrains.com"]
 
