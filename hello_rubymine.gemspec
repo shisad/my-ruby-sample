@@ -3,10 +3,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hello_rubymine/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "hello_rubymine"
-  spec.version       = HelloRubymine::VERSION
-  spec.authors       = ["rubyminedoc"]
-  spec.email         = ["rubyminedoc@jetbrains.com"]
+  spec.name          = "my-ruby-sample"
+  spec.version       = 1.0.0
+  spec.authors       = ["shisad"]
+  spec.email         = ["shisad@jetbrains.com"]
 
   spec.summary       = %q{A sample Ruby gem.}
   spec.homepage      = "https://github.com/shisad/my-ruby-sample"
