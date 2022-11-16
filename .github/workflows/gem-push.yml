@@ -24,8 +24,12 @@ jobs:
         bundler-cache: true
     
     - name: Install dependencies
-      run: bundle install
+      run: gem build *.gemspec
 
+    - uses: actions/upload-artifact@v2
+      with:
+       name: my-artifact
+       path: ./*.gem
     #- name: Publish to RubyGems
      # run: |
      #   mkdir -p $HOME/.gem
