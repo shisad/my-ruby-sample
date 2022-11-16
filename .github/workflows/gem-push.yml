@@ -25,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: gem build *.gemspec
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
        name: my-ruby-sample-artifact
        path: ./*.gem
