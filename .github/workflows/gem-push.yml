@@ -21,14 +21,13 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby-version }}
-        bundler-cache: true
     
     - name: Install dependencies
       run: gem build *.gemspec
 
     - uses: actions/upload-artifact@v2
       with:
-       name: my-artifact
+       name: my-ruby-sample-artifact
        path: ./*.gem
     #- name: Publish to RubyGems
      # run: |
