@@ -29,6 +29,7 @@ jobs:
       with:
        name: my-ruby-sample-artifact
        path: ./*.gem
+       
     #- name: Publish to RubyGems
      # run: |
      #   mkdir -p $HOME/.gem
